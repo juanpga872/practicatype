@@ -1,0 +1,111 @@
+/* src/styles/styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  form input {
+    display: block;
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  form button:hover {
+    background: #218838;
+  }
+  
+  #product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .product-card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    position: relative;
+  }
+  
+  .product-card img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .product-card h2 {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  .product-card p {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .product-card .price {
+    font-size: 16px;
+    color: #28a745;
+    margin: 10px 0;
+  }
+  
+  .product-card button {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    margin: 5px;
+  }
+  
+  .product-card button:hover {
+    background: #0056b3;
+  }
+  
+  .product-card .delete {
+    background: #dc3545;
+  }
+  
+  .product-card .delete:hover {
+    background: #c82333;
+  }
+  
